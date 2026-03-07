@@ -12,7 +12,7 @@
             <div class="card-body">
                 <h5 class="card-title">{{ project.titl }}</h5>
                 <p class="card-text">{{ project.description }}</p>
-                <a href="{{% url 'project detail' project.pk %}}" class="btn btn-primary"> Github likn</a>
+                <a href="{{ url 'project detail' project.pk }}" class="btn btn-primary"> Github likn</a>
             </div>
         </div>
     </div>
