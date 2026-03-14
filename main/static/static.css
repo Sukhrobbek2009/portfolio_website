@@ -1,0 +1,16 @@
+.hero-section {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    padding: 60px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+body {
+    background: linear-gradient(to right, #e3f2fd, #fce4ec);
+}
+
+.footer {
+    background: #222;
+    color: white;
+    padding: 20px;
+    margin-top: 40px;
+}
