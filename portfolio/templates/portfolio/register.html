@@ -1,0 +1,22 @@
+{% extends "portfolio/base.html" %}
+
+{% block content %}
+
+<div class="col-md-4">
+    <div class="card">
+        <h3>Register</h3>
+        <form method="POST">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button class="btn btn-primary" type="submit">Register</button>
+        </form>
+    </div>
+</div>
+
+
+
+
+
+
+
+{% endblock %}
